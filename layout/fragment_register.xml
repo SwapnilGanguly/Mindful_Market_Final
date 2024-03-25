@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#FF00A1" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_name"
+            android:hint="Enter your name"
+            android:textColorHint="#BFBFBF"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#FF00A1" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_pass"
+            android:hint="Enter password"
+            android:textColorHint="#BFBFBF"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_registerbtn"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:backgroundTint="#000DFF" />
+
+    </LinearLayout>
